@@ -46,6 +46,34 @@ body {
 .call,
 .message {
   width: 30px;
+  
 }
+
+section:nth-child(2n) {
+    background-color: white;
+}
+
+
+section>img {
+    border: solid 3px lightblue; 
+}
+/* 
+ .call:hover, .message:hover {
+  transform: scale(1.3);
+ } */
+
+ div>img:hover {
+  transform: scale(1.3);
+  cursor:pointer;
+  background-color: pink;
+ }
+ 
+ img {
+  width: 200px;
+  height: auto;
+  transition: transform 0.3s ease;
+  
+ }
+
 
 /* Tady napište své styly */
